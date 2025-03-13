@@ -8,7 +8,6 @@ const routes = [
       { path: 'members', component: () => import('pages/MembersPage.vue'), meta: { icon: 'groups', label: 'Members' } },
       { path: 'login', component: () => import('pages/DiscordLogin.vue') },
       { path: 'parties', component: () => import('pages/PartiesPage.vue'), meta: { icon: 'groups', label: 'Parties' } },
-      { path: 'loot', component: () => import('pages/LootPage.vue') },
       { path: 'applications', component: () => import('pages/GuildApplicationsPage.vue'), meta: { icon: 'description', label: 'Applications' } },
       { path: 'createcharacter', component: () => import('pages/CreateCharacterPage.vue'), meta: { icon: 'person_add', label: 'Create Character' } },
       { path: 'member/:id', name: 'Member', component: () => import('pages/MemberPage.vue'), props: true },
